@@ -1,42 +1,75 @@
 # Threat Hunting
 
-Welcome to the **Threat Hunting** section of EMETRIX Labs.
+## Overview
 
-This section documents practical threat hunting exercises, detection engineering, log analysis, and security investigations performed in controlled laboratory environments.
+This section contains practical threat hunting investigations conducted within the EMETRIX Labs environment.
 
-## Topics
+The objective is to demonstrate structured security investigations using enterprise methodologies, MITRE ATT&CK techniques, Windows event logs, Sysmon telemetry, SIEM platforms, Sigma detection rules, and endpoint forensics.
+
+---
+
+## Skills Demonstrated
 
 - Threat Hunting Methodology
-- Indicators of Compromise (IOCs)
 - MITRE ATT&CK Mapping
-- Security Onion
-- Elastic Stack
-- Kibana
-- Sysmon
-- Windows Event Logs
-- Threat Intelligence
-- Malware Analysis
+- Windows Event Analysis
+- Sysmon Investigation
+- PowerShell Detection
+- Lateral Movement Detection
+- Sigma Rule Development
+- IOC Identification
 - Log Correlation
+- Incident Documentation
 
-## Repository Structure
+---
 
-Each laboratory includes:
+## Technologies
 
-- Executive Summary
-- Business Context
-- Technical Objective
-- Lab Environment
-- Tools Used
-- Investigation Process
-- Findings
-- Lessons Learned
-- Skills Demonstrated
-- Related Technologies
+- Windows Server
+- Active Directory
+- Sysmon
+- Microsoft Defender
+- Splunk
+- Elastic SIEM
+- Sigma
+- PowerShell
+- Sysinternals
+- Wireshark
 
-## Status
+---
 
-Documentation is continuously updated as new laboratories are completed.
+## Investigations
+
+| Investigation | Status |
+|---------------|--------|
+| Detecting Lateral Movement | Coming Soon |
+| Kerberoasting Investigation | Coming Soon |
+| PowerShell Abuse Detection | Coming Soon |
+| Pass-the-Hash Investigation | Coming Soon |
+| Sigma Rule Development | Coming Soon |
+
+---
+
+## MITRE ATT&CK Coverage
+
+- Initial Access
+- Execution
+- Persistence
+- Privilege Escalation
+- Credential Access
+- Discovery
+- Lateral Movement
+- Defense Evasion
+- Collection
+
+---
 
 ## Disclaimer
 
-All projects in this section are independent technical laboratories, research, and proof-of-concept implementations. They are provided to demonstrate practical defensive security skills and are not commercial client engagements.
+All investigations were performed inside isolated laboratory environments for educational, defensive, and research purposes only.
+
+No production systems or third-party infrastructure were targeted.
+
+---
+
+EMETRIX Tech
