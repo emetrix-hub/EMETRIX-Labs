@@ -1,4 +1,23 @@
+<p align="center">
+  <img src="../../assets/Emetrix_Orginal_logo.PNG" width="180">
+</p>
+
 # 🌐 LAB-002 | Configure a Captive Portal
+
+> **EMETRIX Cybersecurity Knowledge Base**
+
+<p align="center">
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+![Category](https://img.shields.io/badge/Category-Network%20Security-blue)
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-orange)
+
+![Platform](https://img.shields.io/badge/Platform-CompTIA%20Cyber%20Defense%20Pro-lightgrey)
+
+</p>
+
 
 > Configure a secure guest wireless access portal using pfSense to control network access, enforce bandwidth limits, and manage trusted device exceptions.
 
