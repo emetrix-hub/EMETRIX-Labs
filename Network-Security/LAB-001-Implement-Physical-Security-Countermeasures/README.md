@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/emetrix-logo.png" width="180">
+  <img src="../../assets/Emetrix_Orginal_logo.PNG" width="180">
 </p>
 
 # 🛡️ LAB-001 | Implement Physical Security Countermeasures
