@@ -1,10 +1,39 @@
+<p align="center">
+  <img src="../../assets/emetrix-logo.png" width="180">
+</p>
+
 # 🛡️ LAB-001 | Implement Physical Security Countermeasures
 
 > **EMETRIX Cybersecurity Knowledge Base**
 
+<p align="center">
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+![Category](https://img.shields.io/badge/Category-Physical%20Security-blue)
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-orange)
+
+![Platform](https://img.shields.io/badge/Platform-CompTIA%20Cyber%20Defense%20Pro-lightgrey)
+
+</p>
+
 ---
 
-## 📌 Overview
+## 📋 Lab Information
+
+| Property | Value |
+|----------|-------|
+| Lab ID | LAB-001 |
+| Category | Network Security |
+| Topic | Physical Security |
+| Difficulty | Beginner |
+| Status | ✅ Completed |
+| Documentation | EMETRIX Tech |
+
+---
+
+## 📌 📖 Executive Summary
 
 Physical security is the first layer of defense in every cybersecurity program. This lab demonstrates how multiple physical security controls work together to protect critical infrastructure, networking equipment, and organizational assets against unauthorized physical access.
 
@@ -28,6 +57,20 @@ The objective of this lab is to improve physical security by implementing layere
 
 ---
 
+
+# 🎯 Threat Addressed
+
+This lab addresses risks associated with unauthorized physical access to organizational infrastructure.
+
+Potential threats include:
+
+- Unauthorized entry
+- Device theft
+- Insider threats
+- Rogue device installation
+- Physical tampering
+- Service disruption
+
 ## 🛠️ Security Controls Implemented
 
 | Security Control | Purpose |
@@ -48,6 +91,17 @@ Even the strongest firewalls and endpoint protection cannot prevent an attacker 
 Implementing layered physical controls significantly reduces organizational risk.
 
 ---
+# 📈 Business Impact
+
+Proper physical security helps organizations:
+
+- Reduce operational risk
+- Protect critical infrastructure
+- Improve regulatory compliance
+- Increase employee safety
+- Strengthen defense-in-depth
+
+  ---
 
 ## 🌍 Enterprise Applications
 
@@ -78,6 +132,14 @@ These controls are commonly implemented in:
 Cybersecurity begins before a user logs into a computer.
 
 Protecting physical infrastructure is equally important as protecting digital assets.
+
+---
+# 📚 References
+
+- NIST Cybersecurity Framework (CSF)
+- NIST SP 800-53 – Physical and Environmental Protection (PE)
+- CIS Critical Security Controls
+- CompTIA Cyber Defense Pro
 
 ---
 
