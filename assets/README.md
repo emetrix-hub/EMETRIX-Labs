@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="../../assets/Emetrix_Orginal_logo.PNG" width="180">
+</p>
+
+
 # Assets
 
 Welcome to the **Assets** directory of EMETRIX Labs.
