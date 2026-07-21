@@ -5,6 +5,19 @@
 
 # 📡 LAB-003 | Bluetooth Device Discovery
 
+<p align="center">
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+![Category](https://img.shields.io/badge/Category-Network%20Security-blue)
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-orange)
+
+![Platform](https://img.shields.io/badge/Platform-CompTIA%20Cyber%20Defense%20Pro-lightgrey)
+
+</p>
+
+
 > Discover, identify, and analyze nearby Bluetooth devices using Linux command-line tools to support wireless security assessments and device reconnaissance.
 
 ---
