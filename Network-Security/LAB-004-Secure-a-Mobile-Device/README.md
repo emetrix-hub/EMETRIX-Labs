@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="../../assets/Emetrix_Orginal_logo.PNG" width="180">
+</p>
+
+
+
 # 📱 LAB-004 | Secure a Mobile Device
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
