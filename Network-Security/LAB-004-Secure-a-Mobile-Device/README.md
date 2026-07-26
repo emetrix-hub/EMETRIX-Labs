@@ -292,8 +292,6 @@ EMETRIX Tech is a cybersecurity knowledge platform focused on practical laborato
 
 🌐 **Website:** https://emetrix-tech.com
 
-📺 **YouTube:** https://www.youtube.com/@EMETRIXTech *(replace with your channel URL if different)*
-
 📂 **GitHub:** https://github.com/emetrix-hub/EMETRIX-Labs
 
 ---
