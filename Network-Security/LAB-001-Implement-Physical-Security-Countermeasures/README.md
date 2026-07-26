@@ -171,12 +171,14 @@ Protecting physical infrastructure is equally important as protecting digital as
 ---
 ---
 
-## 📌 About EMETRIX Tech
+# 📌 About EMETRIX Tech
 
-EMETRIX Tech is a cybersecurity knowledge platform focused on practical laboratory exercises, professional technical documentation, security research, and real-world cybersecurity engineering.
+EMETRIX Tech is a cybersecurity knowledge platform focused on practical laboratories, technical documentation, IT infrastructure, security research, and real-world cybersecurity engineering.
 
-🌐 Website: *Coming Soon*
+🌐 **Website:** https://emetrix-tech.com
 
-📂 GitHub: EMETRIX-Labs
+📂 **GitHub:** https://github.com/emetrix-hub/EMETRIX-Labs
+
+---
 
 © EMETRIX Tech
