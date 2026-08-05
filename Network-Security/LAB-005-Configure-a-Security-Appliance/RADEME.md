@@ -1,6 +1,7 @@
 <p align="center">
+  <img src="../../assets/Emetrix_Orginal_logo.PNG" width="180">
+</p>
 
-<img src="../../assets/logo.png" width="170">
 
 # 🔐 LAB-005 | Configure a Security Appliance
 
