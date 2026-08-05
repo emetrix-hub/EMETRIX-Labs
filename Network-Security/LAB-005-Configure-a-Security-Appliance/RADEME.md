@@ -357,15 +357,16 @@ Related EMETRIX Labs
 
 Lab	Topic	Status
 
-LAB-001	Implement Physical Security Countermeasures	✅
 
-LAB-002	Configure a Captive Portal	✅
+| Lab | Topic | Status |
+|------|--------|--------|
+| LAB-001 | Implement Physical Security Countermeasures | ✅ Complete |
+| LAB-002 | Configure a Captive Portal                  | ✅ Complete |
+| LAB-003 | Bluetooth Device Discovery                  | ✅ Complete |
+| LAB-004 | Secure a Mobile Device                      | ✅ Complete |
+| LAB-005 | Configure a Security Appliance              | ✅ Complete |
 
-LAB-003	Bluetooth Device Discovery	✅
 
-LAB-004	Secure a Mobile Device	✅
-
-LAB-005	Configure a Security Appliance	✅
 
 _______________________________________________________________________________________
 
