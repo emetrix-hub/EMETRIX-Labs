@@ -1,197 +1,219 @@
 # EMETRIX-LAB-001 — Implement Physical Security Countermeasures
 
-> **EMETRIX Tech | EMETRIX Labs**
->
-> **Security Domain:** Physical Security  
-> **Lab ID:** EMETRIX-LAB-001  
-> **Status:** Completed
+> **EMETRIX Labs | Practical Cybersecurity & Security Operations Portfolio**
+
+---
+
+## Lab Overview
+
+| Attribute | Details |
+|---|---|
+| **Lab ID** | EMETRIX-LAB-001 |
+| **Lab Title** | Implement Physical Security Countermeasures |
+| **Security Domain** | Physical Security |
+| **Primary Focus** | Physical Access Control & Security Monitoring |
+| **Environment** | Controlled Cybersecurity Training Environment |
+| **Status** | ✅ Completed |
+| **Assessment Result** | 4/4 — 100% |
+| **Difficulty** | Beginner |
+| **Documentation** | EMETRIX Tech |
 
 ---
 
 ## Executive Summary
 
-This laboratory examines the implementation of physical security countermeasures designed to reduce unauthorized physical access and improve the protection of organizational assets.
+This laboratory demonstrates the implementation of multiple physical security countermeasures designed to protect a building entrance and a restricted networking environment.
 
-The exercise demonstrates how physical security controls contribute to an organization's broader security posture and complement technical cybersecurity controls.
+The exercise combines access control, physical security monitoring, restricted-area identification, and visitor accountability to demonstrate a layered physical security approach.
+
+The implemented controls included:
+
+- Smart card access readers
+- IP security cameras
+- Restricted Access signage
+- Visitor logging
+
+The laboratory was completed successfully with a **4/4 (100%)** assessment result. :contentReference[oaicite:1]{index=1}
 
 ---
 
-## Lab Objective
+## Security Objective
 
-The objective of this laboratory is to examine and implement examples of physical security countermeasures and understand their role in protecting people, facilities, systems and information assets.
+The objective of this laboratory was to implement physical security controls at designated locations within a controlled environment.
+
+The exercise focused on protecting a networking closet and controlling access to the surrounding environment through multiple complementary security mechanisms.
+
+### Security objectives
+
+- Restrict unauthorized physical access
+- Protect sensitive infrastructure areas
+- Improve physical security visibility
+- Clearly identify restricted areas
+- Support visitor accountability
+- Apply layered security controls
 
 ---
 
-## Security Concepts
+## Controls Implemented
 
-This laboratory focuses on:
+The following controls were implemented during the laboratory:
 
-- Physical access control
-- Physical security monitoring
-- Visitor management
-- Security barriers and controls
-- Asset protection
-- Security procedures
-- Preventive security controls
-- Defense-in-depth
+| Control | Deployment Location | Security Purpose |
+|---|---|---|
+| **Smart Card Reader** | Building front entrance | Control physical entry |
+| **Smart Card Reader** | Networking closet entrance | Restrict access to sensitive infrastructure |
+| **IP Security Camera** | Inside networking closet | Monitor the protected area |
+| **IP Security Camera** | Outside networking closet | Monitor the surrounding access area |
+| **Restricted Access Sign** | Networking closet door | Communicate access restrictions |
+| **Visitor Log** | Lobby desk | Support visitor accountability |
+
+The original laboratory task summary explicitly identifies these required implementations. :contentReference[oaicite:2]{index=2}
+
+---
+
+## Security Control Analysis
+
+### 1. Physical Access Control
+
+Smart card readers were deployed at the building's front entrance and at the networking closet entrance.
+
+These controls provide a mechanism for restricting physical access to designated areas.
+
+**Control objective:** Prevent or limit unauthorized physical entry.
+
+---
+
+### 2. Physical Security Monitoring
+
+IP security cameras were deployed at two locations:
+
+- Inside the networking closet
+- Outside the networking closet
+
+This provides monitoring coverage for the protected infrastructure area and its surrounding access point.
+
+**Control objective:** Increase visibility of physical security events.
+
+---
+
+### 3. Restricted Area Identification
+
+A Restricted Access sign was placed on the networking closet door.
+
+The purpose of the sign is to clearly communicate that access to the area is restricted.
+
+**Control objective:** Communicate physical access requirements.
+
+---
+
+### 4. Visitor Management
+
+A visitor log was placed on the lobby desk.
+
+This provides a mechanism for maintaining visitor records within the environment.
+
+**Control objective:** Support visitor accountability.
+
+---
+
+## Control Classification
+
+The implemented controls can be viewed as complementary layers of a defense-in-depth strategy.
+
+| Control | Primary Security Function | Control Type |
+|---|---|---|
+| Smart Card Reader | Restrict physical access | Preventive |
+| IP Security Camera | Monitor physical activity | Detective |
+| Restricted Access Sign | Communicate security requirements | Directive |
+| Visitor Log | Maintain visitor accountability | Administrative |
+
+> **Note:** Control classification describes the security function demonstrated by the implemented mechanism; individual controls can contribute to multiple security objectives depending on organizational implementation.
 
 ---
 
 ## Environment
 
-The laboratory was performed in a controlled training environment.
+The laboratory was performed in a **controlled cybersecurity training environment**.
 
-**Environment:** Isolated cybersecurity/security training lab
-
-**Documentation approach:** Original observations, implementation details and evidence are documented by EMETRIX Tech.
+The environment was used to demonstrate physical security countermeasures without exposing production infrastructure, organizational systems, credentials, or sensitive operational information.
 
 ---
 
 ## Tools & Technologies
 
-The laboratory may involve physical-security concepts and representative security technologies such as:
+The laboratory focused primarily on physical security mechanisms and concepts.
 
-- Access-control systems
-- Smart-card access
-- Security cameras
-- Visitor-management processes
-- Physical security procedures
+### Technologies / mechanisms
+
+- Smart card access readers
+- IP security cameras
+- Physical security signage
+- Visitor management / logging
+
+### Security concepts
+
+- Physical access control
+- Physical security monitoring
+- Restricted-area protection
+- Visitor management
+- Defense-in-depth
+- Security control implementation
+- Asset protection
 
 ---
 
 ## Methodology
 
-The laboratory follows the EMETRIX Labs methodology:
+The EMETRIX Labs workflow used for this exercise follows:
 
 **LEARN → PERFORM → INVESTIGATE → DOCUMENT → VALIDATE → PUBLISH**
 
-The workflow consisted of:
+For this laboratory, the workflow consisted of:
 
-1. Reviewing the security objective
-2. Identifying the relevant physical security controls
-3. Implementing or examining the controls in the controlled environment
-4. Observing their security purpose
-5. Documenting evidence
-6. Evaluating the security value of each control
-7. Recording lessons learned
+1. Reviewing the physical security objective.
+2. Identifying the required physical security controls.
+3. Implementing the designated controls within the controlled environment.
+4. Reviewing the security purpose of each control.
+5. Capturing appropriate evidence.
+6. Documenting the implementation and security implications.
+7. Validating the laboratory result.
 
 ---
 
-## Implementation & Investigation
+## Implementation
 
-The laboratory focused on understanding how physical security controls can reduce unauthorized access and support organizational security objectives.
+The laboratory required the following implementation activities:
 
-The implementation and observations are documented through the evidence included with this laboratory.
+### Access Control
+
+Smart card readers were installed at:
+
+- The building's front door
+- The networking closet door
+
+### Security Monitoring
+
+IP security cameras were installed:
+
+- Inside the networking closet
+- Outside the networking closet
+
+### Restricted Access
+
+A Restricted Access sign was installed on the networking closet door.
+
+### Visitor Management
+
+A visitor log was placed on the lobby desk.
+
+These actions correspond to the required tasks documented in the original laboratory report. :contentReference[oaicite:3]{index=3}
 
 ---
 
 ## Evidence
 
-Evidence should consist of screenshots or photographs captured from the controlled training environment.
+Evidence captured from the laboratory is maintained under:
 
-Sensitive information must be removed or sanitized before publication.
-
-See:
-
-`evidence/screenshots/`
-
----
-
-## Findings
-
-### Finding 01 — Physical Access Controls
-
-Physical access controls provide a preventive layer against unauthorized access to protected areas and assets.
-
-### Finding 02 — Security Monitoring
-
-Monitoring mechanisms can provide visibility into physical security events and support detection and response activities.
-
-### Finding 03 — Visitor Management
-
-Controlled visitor procedures can reduce unauthorized physical access and improve accountability.
-
----
-
-## Risk Considerations
-
-Weak physical security controls can increase the risk of:
-
-- Unauthorized facility access
-- Asset theft
-- Unauthorized system access
-- Tampering
-- Information exposure
-- Operational disruption
-
-Physical security should therefore be treated as part of a defense-in-depth security strategy.
-
----
-
-## Remediation & Improvement
-
-Potential improvements include:
-
-- Periodically reviewing physical access permissions
-- Maintaining accurate visitor records
-- Monitoring security systems
-- Reviewing physical security procedures
-- Testing access-control mechanisms
-- Integrating physical and logical security processes where appropriate
-
----
-
-## Validation
-
-The implemented or examined controls should be validated by confirming that the intended security objective is achieved and that evidence accurately represents the controlled environment.
-
----
-
-## Lessons Learned
-
-This laboratory demonstrates that cybersecurity is not limited to software, networks and endpoints.
-
-Physical security controls form an important layer of defense and can directly influence the confidentiality, integrity and availability of organizational assets.
-
----
-
-## Skills Demonstrated
-
-- Physical security
-- Access control
-- Security monitoring
-- Security procedures
-- Risk awareness
-- Security documentation
-- Defense-in-depth
-- Security control analysis
-
----
-
-## References
-
-Training material and relevant security guidance used during the laboratory should be referenced here.
-
-Proprietary training content is not reproduced in this portfolio. The repository focuses on EMETRIX Tech's own execution, observations, evidence and analysis.
-
----
-
-## Media
-
-Professional laboratory recording:
-
-- YouTube: Coming soon
-- LinkedIn: Coming soon
-- Instagram: Coming soon
-- TikTok: Coming soon
-
----
-
-## EMETRIX Labs Methodology
-
-**LEARN → PERFORM → INVESTIGATE → DOCUMENT → VALIDATE → PUBLISH**
-
-
-**EMETRIX Tech**
-
-**PROTECT • DETECT • RESPOND**
+```text
+evidence/
+└── screenshots/
