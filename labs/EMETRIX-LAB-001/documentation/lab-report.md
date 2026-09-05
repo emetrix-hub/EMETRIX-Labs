@@ -120,6 +120,40 @@ Evidence published in this repository should:
 
 ---
 
+## Evidence Preview
+
+The following screenshots document the implementation and validation performed during the laboratory exercise.
+
+### Lab Environment
+
+![Lab Environment Overview](./evidence/screenshots/01-lab-environment-overview.png)
+
+### Smart Card Access Control
+
+![Smart Card Access Control](./evidence/screenshots/02-smart-card-access-control.png)
+
+### IP Camera Security Monitoring
+
+![IP Camera Security Monitoring](./evidence/screenshots/03-ip-camera-security-monitoring.png)
+
+### Visitor Log Control
+
+![Visitor Log Control](./evidence/screenshots/04-visitor-log-control.png)
+
+### Restricted Area Control
+
+![Restricted Area Control](./evidence/screenshots/05-restricted-area-control.png)
+
+### Visitor Management
+
+![Visitor Management](./evidence/screenshots/06-visitor-management.png)
+
+### Lab Validation
+
+![Lab Validation Result](./evidence/screenshots/07-lab-validation-result.png)
+
+---
+
 ## Findings
 
 The laboratory demonstrates that physical security should use multiple complementary controls rather than relying on a single mechanism.
