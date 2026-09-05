@@ -33,7 +33,7 @@ The implemented controls included:
 - Restricted Access signage
 - Visitor logging
 
-The laboratory was completed successfully with a **4/4 (100%)** assessment result. :contentReference[oaicite:1]{index=1}
+The laboratory was completed successfully with a 4/4 (100%) assessment result.
 
 ---
 
@@ -67,7 +67,7 @@ The following controls were implemented during the laboratory:
 | **Restricted Access Sign** | Networking closet door | Communicate access restrictions |
 | **Visitor Log** | Lobby desk | Support visitor accountability |
 
-The original laboratory task summary explicitly identifies these required implementations. :contentReference[oaicite:2]{index=2}
+The laboratory requirements were reviewed and translated into the physical security controls described below.
 
 ---
 
@@ -206,7 +206,7 @@ A Restricted Access sign was installed on the networking closet door.
 
 A visitor log was placed on the lobby desk.
 
-These actions correspond to the required tasks documented in the original laboratory report. :contentReference[oaicite:3]{index=3}
+These actions correspond to the required implementation activities completed within the controlled laboratory environment.
 
 ---
 
