@@ -191,6 +191,7 @@ Professional laboratory recording:
 
 **LEARN → PERFORM → INVESTIGATE → DOCUMENT → VALIDATE → PUBLISH**
 
+
 **EMETRIX Tech**
 
 **PROTECT • DETECT • RESPOND**
