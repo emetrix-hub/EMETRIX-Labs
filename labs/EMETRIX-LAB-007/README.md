@@ -7,97 +7,59 @@
 > **Password Security • Cryptographic Hashes • Rainbow Tables • Credential Risk**
 
 ## 📋 Business Scenario
-
-An organization is assessing the resilience of password storage against offline password-recovery techniques. The security team must understand how weak password choices and unsalted or otherwise predictable password hashes can increase credential-compromise risk.
+An organization is assessing password-storage resilience against offline password-recovery techniques.
 
 ## 🎯 Lab Objective
-
-Analyze password hashes using a controlled laboratory environment to understand the security implications of rainbow-table attacks and evaluate defensive measures that make precomputed password attacks less effective.
+Analyze password hashes in a controlled laboratory to understand rainbow-table risk and evaluate defensive measures that reduce precomputed-attack effectiveness.
 
 ## ⚠️ Threat Addressed
-
-The laboratory addresses the risk of password compromise through offline hash cracking, particularly where attackers obtain password hashes and can use precomputed lookup data against weak or improperly protected credentials.
+Offline password compromise where attackers obtain hashes and can use precomputed lookup data against weak or improperly protected credentials.
 
 ## 🛡️ Security Controls Implemented
-
 - Password-hash security assessment
 - Cryptographic hash analysis
-- Offline credential-risk evaluation
+- Credential-risk evaluation
 - Password-strength assessment
-- Salt and key-stretching awareness
 - Defensive credential-management analysis
 
 ## 🛠️ Implementation Walkthrough
-
-The laboratory was performed in an isolated, authorized training environment. The documentation focuses on the security concepts, observations, and defensive implications rather than reproducing proprietary training instructions or publishing recoverable credentials.
-
-### Hash Analysis
-
-Controlled password-hash data was examined to demonstrate how precomputed tables can accelerate recovery when the underlying password construction and hashing scheme permit such attacks.
-
-### Security Evaluation
-
-The exercise was used to evaluate why modern password storage should use unique salts and deliberately expensive password-hashing functions rather than relying on fast, unsalted hashes.
+The laboratory was performed in an isolated, authorized training environment. Documentation focuses on security concepts, observations, and defensive implications rather than publishing recoverable credentials.
 
 ## 🔍 Security Analysis
-
-Rainbow tables trade storage for computation by precomputing relationships between candidate passwords and hash outputs. Unique salts substantially reduce the value of a single reusable precomputed table because identical passwords produce different hash values across accounts.
-
-For modern systems, password storage should use purpose-built password-hashing mechanisms with unique salts and appropriate work factors. Security teams should also combine technical controls with strong password policy, MFA, credential monitoring, and protection against credential reuse.
+Rainbow tables precompute relationships between candidate passwords and hash outputs. Unique salts substantially reduce the usefulness of reusable precomputed tables. Modern password storage should use purpose-built password-hashing mechanisms with unique salts and appropriate work factors.
 
 ## 📊 Business Impact
-
-Weak password storage can turn a database compromise into a broader identity-security incident. Strong password hashing and layered identity controls increase attacker cost and reduce the likelihood of large-scale credential recovery.
+Weak password storage can turn a database compromise into a broader identity-security incident. Strong password hashing and layered identity controls increase attacker cost.
 
 ## 🏢 Enterprise Applications
-
 - Identity and access management
 - Password-storage architecture reviews
 - Credential-compromise assessments
 - Application security reviews
-- Security engineering and defensive hardening
 
 ## 🧠 Skills Demonstrated
-
-- Password security analysis
-- Cryptographic hash concepts
-- Rainbow-table attack concepts
-- Credential-risk assessment
-- Defensive authentication design
-- Security documentation
+Password security • cryptographic hashes • rainbow-table concepts • credential-risk assessment • defensive authentication design
 
 ## 📝 Professional Reflection
-
-This laboratory demonstrated that password security depends not only on password complexity but also on how credentials are stored. A secure architecture must assume that password hashes may eventually be exposed and therefore make offline recovery computationally expensive.
+The laboratory demonstrated that password security depends on both password construction and secure credential-storage architecture.
 
 ## 📚 References & Attribution
-
-- CompTIA hands-on security training exercise: **Analyze Passwords Using Rainbow Tables**
-- General password-storage and cryptographic security guidance relevant to the laboratory
-
-This portfolio does not reproduce proprietary step-by-step training instructions.
+Completed in a controlled training environment based on a CompTIA exercise. Proprietary instructions and recoverable credentials are not reproduced.
 
 ## 🔗 Related EMETRIX Labs
-
 - [EMETRIX-LAB-008 — Configure Account Password Policies](../EMETRIX-LAB-008/)
 - [EMETRIX-LAB-009 — Manage Certificates](../EMETRIX-LAB-009/)
 
 ## 🎥 Media
-
 ### YouTube Walkthrough
+▶️ **[Watch the LAB-007 Walkthrough on YouTube](https://youtu.be/XL5CSsRBUx0)**
 
-▶️ **Watch the EMETRIX Tech laboratory walkthrough**
-
-Add the verified public YouTube URL for LAB-007 here once the recording-to-lab mapping is confirmed.
-
-The video complements the technical documentation and sanitized evidence contained in this repository.
+The video complements the technical documentation and sanitized evidence in this repository.
 
 ## 📁 Evidence
-
-Sanitized laboratory evidence should be stored under `evidence/screenshots/` when available. Never publish plaintext passwords, recoverable credentials, password databases, private keys, or other sensitive authentication material.
+Sanitized laboratory evidence should be stored under `evidence/screenshots/`. Never publish plaintext passwords, recoverable credentials, password databases, private keys, or authentication secrets.
 
 ## 👤 About EMETRIX Tech
-
 **EMETRIX Tech** develops practical cybersecurity and security-operations knowledge through controlled laboratories, technical investigations, documentation, and defensive security engineering.
 
 **Protect • Detect • Respond**
