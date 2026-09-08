@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../../assets/branding/emetrix-tech-logo.png" alt="EMETRIX Tech Logo" width="220">
+</p>
+
 # EMETRIX-LAB-006 — Configure Security Appliance Access
 
 > **Access Control • pfSense • Administrative Security • Session Management**
@@ -24,19 +28,19 @@ Weak or shared administrative credentials and poorly controlled management sessi
 
 ## 🛠️ Implementation Walkthrough
 
-The controlled exercise successfully completed four administrative-access objectives. The source lab report records **4/4 (100%) Pass**. fileciteturn67file3L2-L11
+The controlled exercise successfully completed four administrative-access objectives. The source lab report records **4/4 (100%) Pass**.
 
 ### Administrative Credential Management
 
-The default administrator password was changed and a separate user account was created with administrative group membership. fileciteturn67file3L22-L35
+The default administrator password was changed and a separate user account was created with administrative group membership.
 
 ### Session Management
 
-A 20-minute management-session timeout was configured. fileciteturn67file3L36-L39
+A 20-minute management-session timeout was configured.
 
 ### Web Management Configuration
 
-The exercise also modified the webConfigurator anti-lockout setting for HTTP. This configuration is documented as a laboratory observation and should not be interpreted as a production recommendation without an explicit security architecture and access-control review. fileciteturn67file3L40-L47
+The exercise also modified the webConfigurator anti-lockout setting for HTTP. This configuration is documented as a laboratory observation and should not be interpreted as a production recommendation without an explicit security architecture and access-control review.
 
 > Credentials, internal addresses, and training-environment identifiers are intentionally excluded from this public portfolio.
 
@@ -84,6 +88,10 @@ The exercise reinforced that protecting the management plane is as important as 
 ### YouTube Walkthrough
 
 The laboratory recording is part of the EMETRIX Tech published cybersecurity video portfolio. The verified public video URL will be maintained here once its lab mapping is confirmed.
+
+## 📁 Evidence
+
+Sanitized laboratory evidence should be stored under `evidence/screenshots/` when available. Never publish credentials, passwords, private keys, authentication tokens, production network information, or unnecessary personal data.
 
 ## 👤 About EMETRIX Tech
 
