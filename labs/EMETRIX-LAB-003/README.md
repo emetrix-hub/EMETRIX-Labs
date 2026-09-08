@@ -4,142 +4,58 @@
 
 # EMETRIX-LAB-003 — Discover Bluetooth Devices
 
-## 1. Lab Overview
+> **Wireless Security • Bluetooth • Linux Security Tooling • Reconnaissance**
 
-Controlled wireless-security laboratory focused on Bluetooth adapter initialization, device discovery, connectivity validation, service enumeration, and device-class identification.
+## 📋 Business Scenario
+A security analyst needs to understand the Bluetooth exposure visible from an authorized laboratory environment and characterize discoverable devices without interacting with production systems.
 
-**Source exercise:** 2.4.7 Discover Bluetooth Devices  
-**Result:** 8/8 — 100% Pass  
-**Recorded:** Yes
+## 🎯 Lab Objective
+Perform Bluetooth adapter validation, device discovery, connectivity checks, service enumeration, and device-class identification in a controlled environment.
 
-## 2. Executive Summary
+## ⚠️ Threat Addressed
+Unnecessary Bluetooth discoverability and service exposure can increase the observable wireless attack surface.
 
-The lab used Linux Bluetooth utilities to identify nearby Bluetooth devices and then progressively increase the level of technical detail: adapter status, discovery, reachability, service enumeration, and device-class information. This demonstrates a practical wireless reconnaissance workflow in a controlled environment.
+## 🛡️ Security Controls Implemented
+This is primarily an assessment exercise. Controls include an authorized laboratory boundary, evidence sanitization, and separation from production Bluetooth systems.
 
-## 3. Security Objective
+## 🛠️ Implementation Walkthrough
+The workflow progressed from adapter status to device discovery, reachability testing, service enumeration, and device-class identification using Linux Bluetooth tooling. Proprietary instructions are not reproduced.
 
-Demonstrate how Bluetooth-enabled systems can be discovered and characterized so that an analyst can understand wireless exposure and identify devices that may require additional security controls.
+## 🔍 Security Analysis
+The lab demonstrates that wireless exposure can be characterized progressively: discovery identifies visible devices, reachability establishes responsiveness, service enumeration reveals exposed services, and class information helps characterize device types.
 
-## 4. Lab Requirements
+## 📊 Business Impact
+Bluetooth exposure should be governed according to business need, device role, discoverability, pairing, authentication, encryption, firmware, and organizational policy.
 
-- Linux laboratory environment
-- Bluetooth adapter
-- `hciconfig`
-- `hcitool`
-- `l2ping`
-- `sdptool`
-- Controlled nearby Bluetooth devices
+## 🏢 Enterprise Applications
+- Wireless security assessment
+- Endpoint security
+- Bluetooth exposure reviews
+- Security monitoring and reconnaissance
 
-## 5. Environment
+## 🧠 Skills Demonstrated
+Bluetooth security • Linux • wireless reconnaissance • device discovery • connectivity testing • service enumeration • evidence handling
 
-A controlled Linux security laboratory with a local Bluetooth adapter and multiple devices within radio range. Evidence is sanitized before publication so device identifiers are not unnecessarily exposed.
+## 📝 Professional Reflection
+The laboratory reinforced the importance of moving from discovery to characterization while keeping wireless testing authorized and controlled.
 
-## 6. Architecture
+## 📚 References & Attribution
+Completed in a controlled training environment based on a CompTIA exercise. The portfolio records practical execution, observed evidence, analysis, and validation without reproducing proprietary instructions.
 
-```text
-       Bluetooth Adapter (Linux)
-                  │
-        ┌─────────▼─────────┐
-        │ Adapter Validation │
-        │    hciconfig       │
-        └─────────┬─────────┘
-                  │
-        ┌─────────▼─────────┐
-        │ Device Discovery   │
-        │     hcitool scan   │
-        └─────────┬─────────┘
-                  │
-        ┌─────────▼─────────┐
-        │ Reachability Test  │
-        │      l2ping        │
-        └─────────┬─────────┘
-                  │
-        ┌─────────▼─────────┐
-        │ Service Enumeration│
-        │     sdptool        │
-        └─────────┬─────────┘
-                  │
-        ┌─────────▼─────────┐
-        │ Class Identification│
-        │     hcitool inq    │
-        └────────────────────┘
-```
+## 🔗 Related EMETRIX Labs
+- [EMETRIX-LAB-002 — Configure a Captive Portal](../EMETRIX-LAB-002/)
+- [EMETRIX-LAB-005 — Configure a Security Appliance](../EMETRIX-LAB-005/)
 
-## 7. Security Controls Implemented
+## 🎥 Media
+### YouTube Walkthrough
+▶️ **[Watch the LAB-003 Walkthrough on YouTube](https://youtu.be/QyuT93tzMoU)**
 
-This lab is primarily an assessment and enumeration exercise rather than a defensive configuration task. The relevant security controls are the controlled test boundary, evidence sanitization, authorization of the lab environment, and separation from production Bluetooth systems.
+The video complements the technical documentation and sanitized evidence in this repository.
 
-## 8. Implementation
+## 📁 Evidence
+Sanitized evidence is stored under `evidence/screenshots/`. Bluetooth identifiers should be minimized or redacted when not necessary for the learning objective.
 
-The workflow initialized and verified the Bluetooth adapter, performed device discovery, tested discovered devices for reachability, queried services on a selected device, and used inquiry output to inspect device-class information. The observed evidence was captured as separate stages so each analytical step can be traced to a screenshot.
+## 👤 About EMETRIX Tech
+**EMETRIX Tech** develops practical cybersecurity and security-operations knowledge through controlled laboratories, technical investigations, documentation, and defensive security engineering.
 
-## 9. Evidence
-
-Sanitized evidence should be stored under `evidence/screenshots/`.
-
-Recommended evidence set:
-
-- `01-bluetooth-adapter-status.png`
-- `02-bluetooth-device-discovery.png`
-- `03-bluetooth-connectivity-validation.png`
-- `04-bluetooth-service-enumeration.png`
-- `05-bluetooth-inquiry-results.png`
-- `06-lab-validation-result.png`
-
-The screenshots demonstrate adapter status, discovery output, successful connectivity checks, service enumeration, class information, and final lab validation.
-
-## 10. Findings & Security Analysis
-
-**Finding 01 — Discoverability:** Multiple Bluetooth devices were visible during the controlled scan, demonstrating that wireless exposure can be observed without interacting with higher-level applications.
-
-**Finding 02 — Reachability:** `l2ping` was used to determine which discovered devices responded in the laboratory environment.
-
-**Finding 03 — Service exposure:** `sdptool` exposed service information for a selected device, illustrating that discoverable services can increase an attacker's understanding of a target.
-
-**Finding 04 — Device classification:** Inquiry output provided device-class information that can help characterize nearby Bluetooth systems.
-
-## 11. Risk Considerations
-
-Bluetooth exposure should be assessed according to device role, discoverability requirements, pairing controls, authentication, encryption, supported profiles, firmware state, and organizational policy. Enumeration results alone do not establish compromise; they establish observable exposure and attack-surface information.
-
-## 12. Validation
-
-**Result: 8/8 — 100% Pass.** The source lab report confirms successful completion of the required discovery, reachability, service-query, and class-identification activities.
-
-## 13. Lessons Learned
-
-- Wireless reconnaissance should progress from discovery to characterization.
-- A discovered device is not automatically a vulnerable device.
-- Service enumeration can reveal useful attack-surface information.
-- Evidence should be captured at each analytical stage.
-- Bluetooth identifiers should be sanitized before public publication when they are not necessary for the learning objective.
-
-## 14. Skills Demonstrated
-
-Bluetooth security • Linux security tooling • wireless reconnaissance • device discovery • connectivity testing • service enumeration • device classification • evidence handling • security analysis
-
-## 15. References & Attribution
-
-The lab was completed in a controlled training environment based on a CompTIA exercise. This repository does not reproduce proprietary instructions. The report documents the author's practical execution, observed evidence, analysis, validation, and lessons learned.
-
-## 16. EMETRIX Labs Methodology
-
-**Learn → Perform → Capture Evidence → Analyze → Validate → Document → Publish → Improve**
-
-All wireless testing represented here is limited to controlled, authorized laboratory environments.
-
-## 17. Lab Status
-
-- **Lab ID:** EMETRIX-LAB-003
-- **Status:** Completed
-- **Assessment:** 8/8 — Pass
-- **Evidence:** Sanitized evidence set prepared
-- **Recording:** Completed
-
-## 18. Media
-
-The lab recording is maintained in the EMETRIX Tech content pipeline. Add the final public video URL here after publication.
-
----
-
-**EMETRIX Tech — Protect • Detect • Respond**
+**Protect • Detect • Respond**
