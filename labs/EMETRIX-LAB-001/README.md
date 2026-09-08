@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../../assets/branding/emetrix-tech-logo.png" alt="EMETRIX Tech Logo" width="220">
+</p>
+
 # EMETRIX-LAB-001 — Implement Physical Security Countermeasures
 
 ## 1. Lab Overview
