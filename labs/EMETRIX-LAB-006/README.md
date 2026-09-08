@@ -7,19 +7,15 @@
 > **Access Control • pfSense • Administrative Security • Session Management**
 
 ## 📋 Business Scenario
-
-Administrative access to a network security appliance must be controlled so that management functions are protected against weak credentials, excessive session lifetime, and unnecessary management exposure.
+Administrative access to a network security appliance must be controlled against weak credentials, excessive session lifetime, and unnecessary management exposure.
 
 ## 🎯 Lab Objective
-
-Harden administrative access to a pfSense security appliance by changing the default administrator credential, creating a dedicated administrative user, defining a session timeout, and reviewing the web management anti-lockout configuration.
+Harden administrative access to a pfSense security appliance through credential management, a dedicated administrative account, session timeout, and web management configuration.
 
 ## ⚠️ Threat Addressed
-
-Weak or shared administrative credentials and poorly controlled management sessions can increase the likelihood and impact of unauthorized administrative access.
+Weak/shared administrative credentials and poorly controlled management sessions can increase unauthorized administrative-access risk.
 
 ## 🛡️ Security Controls Implemented
-
 - Administrative credential management
 - Named administrative account
 - Session timeout
@@ -27,33 +23,15 @@ Weak or shared administrative credentials and poorly controlled management sessi
 - Administrative privilege assignment
 
 ## 🛠️ Implementation Walkthrough
-
-The controlled exercise successfully completed four administrative-access objectives. The source lab report records **4/4 (100%) Pass**.
-
-### Administrative Credential Management
-
-The default administrator password was changed and a separate user account was created with administrative group membership.
-
-### Session Management
-
-A 20-minute management-session timeout was configured.
-
-### Web Management Configuration
-
-The exercise also modified the webConfigurator anti-lockout setting for HTTP. This configuration is documented as a laboratory observation and should not be interpreted as a production recommendation without an explicit security architecture and access-control review.
-
-> Credentials, internal addresses, and training-environment identifiers are intentionally excluded from this public portfolio.
+The controlled exercise completed four administrative-access objectives. Credentials and internal identifiers are excluded from this public portfolio.
 
 ## 🔍 Security Analysis
-
-The lab demonstrates the importance of identity-specific administration, credential lifecycle management, session controls, and deliberate management-plane configuration. Administrative security is a critical part of the overall firewall security boundary.
+Protecting the management plane is a critical component of firewall security. Individual administrative accounts, controlled privileges, credential lifecycle management, and session controls improve accountability and reduce administrative risk.
 
 ## 📊 Business Impact
-
-Strong administrative controls reduce the risk of unauthorized configuration changes that could affect network availability, confidentiality, traffic filtering, or security monitoring.
+Strong administrative controls reduce the risk of unauthorized configuration changes affecting availability, confidentiality, traffic filtering, and monitoring.
 
 ## 🏢 Enterprise Applications
-
 - Firewall administration
 - Network security operations
 - Privileged-access management
@@ -61,40 +39,28 @@ Strong administrative controls reduce the risk of unauthorized configuration cha
 - Security change control
 
 ## 🧠 Skills Demonstrated
-
-- pfSense administration
-- Administrative access control
-- Privileged account management
-- Session-security configuration
-- Security hardening
-- Configuration validation
+pfSense • administrative access control • privileged account management • session security • hardening • validation
 
 ## 📝 Professional Reflection
-
-The exercise reinforced that protecting the management plane is as important as configuring the data plane. Administrative accounts should be individually attributable, appropriately privileged, and governed by strong authentication and session-management controls.
+The exercise reinforced that protecting the management plane is as important as configuring the data plane.
 
 ## 📚 References & Attribution
-
-- CompTIA hands-on security training exercise: **2.4.10 Configure Security Appliance Access**
-- pfSense documentation and controlled laboratory environment
+Completed in a controlled training environment based on a CompTIA exercise. Proprietary instructions and credentials are not reproduced.
 
 ## 🔗 Related EMETRIX Labs
-
 - [EMETRIX-LAB-005 — Configure a Security Appliance](../EMETRIX-LAB-005/)
 - [EMETRIX-LAB-009 — Manage Certificates](../EMETRIX-LAB-009/)
 
 ## 🎥 Media
-
 ### YouTube Walkthrough
+▶️ **[Watch the LAB-006 Walkthrough on YouTube](https://youtu.be/8_HxUlw2FiM)**
 
-The laboratory recording is part of the EMETRIX Tech published cybersecurity video portfolio. The verified public video URL will be maintained here once its lab mapping is confirmed.
+The video complements the technical documentation and sanitized evidence in this repository.
 
 ## 📁 Evidence
-
-Sanitized laboratory evidence should be stored under `evidence/screenshots/` when available. Never publish credentials, passwords, private keys, authentication tokens, production network information, or unnecessary personal data.
+Sanitized laboratory evidence should be stored under `evidence/screenshots/`. Never publish passwords, private keys, tokens, or production network information.
 
 ## 👤 About EMETRIX Tech
-
 **EMETRIX Tech** develops practical cybersecurity and security-operations knowledge through controlled laboratories, technical investigations, documentation, and defensive security engineering.
 
 **Protect • Detect • Respond**
