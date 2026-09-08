@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../../assets/branding/emetrix-tech-logo.png" alt="EMETRIX Tech Logo" width="220">
+</p>
+
 # EMETRIX-LAB-004 — Secure a Mobile Device
 
 > **Mobile Security • Endpoint Protection • Device Hardening • Access Control**
