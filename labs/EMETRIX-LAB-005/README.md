@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../../assets/branding/emetrix-tech-logo.png" alt="EMETRIX Tech Logo" width="220">
+</p>
+
 # EMETRIX-LAB-005 — Configure a Security Appliance
 
 > **Network Security • pfSense • DNS Configuration • WAN Configuration • Gateway Management**
