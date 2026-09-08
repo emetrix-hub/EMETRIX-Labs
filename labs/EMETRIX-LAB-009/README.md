@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../../assets/branding/emetrix-tech-logo.png" alt="EMETRIX Tech Logo" width="220">
+</p>
+
 # EMETRIX-LAB-009 — Manage Certificates
 
 > **PKI • Certificate Lifecycle Management • Windows Server • Trust & Revocation**
@@ -25,19 +29,19 @@ Poor certificate lifecycle management can leave unauthorized, compromised, or no
 
 ## 🛠️ Implementation Walkthrough
 
-The source laboratory report records **4/4 (100%) Pass** for the certificate-management exercise. fileciteturn67file4L2-L15
+The source laboratory report records **4/4 (100%) Pass** for the certificate-management exercise.
 
 ### Certificate Request Management
 
-A pending smart-card certificate request was approved while another pending request was denied. fileciteturn67file4L25-L31
+A pending smart-card certificate request was approved while another pending request was denied.
 
 ### Certificate Revocation
 
-Two issued certificates were revoked using distinct reason codes: **Key Compromise** and **Change of Affiliation**. fileciteturn67file4L32-L39
+Two issued certificates were revoked using distinct reason codes: **Key Compromise** and **Change of Affiliation**.
 
 ### Certificate Status Restoration
 
-A previously revoked certificate was restored through the controlled unrevocation workflow. fileciteturn67file4L40-L45
+A previously revoked certificate was restored through the controlled unrevocation workflow.
 
 > Usernames, hostnames, domain identifiers, and other training-environment details are intentionally minimized in this public portfolio.
 
@@ -86,6 +90,10 @@ The laboratory demonstrated why certificate authorities require disciplined life
 ### YouTube Walkthrough
 
 The laboratory recording is part of the EMETRIX Tech published cybersecurity video portfolio. The verified public video URL will be maintained here once its lab mapping is confirmed.
+
+## 📁 Evidence
+
+Sanitized laboratory evidence should be stored under `evidence/screenshots/` when available. Never publish private keys, authentication secrets, certificate private material, or unnecessary personal identifiers.
 
 ## 👤 About EMETRIX Tech
 
