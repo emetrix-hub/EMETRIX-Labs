@@ -9,12 +9,12 @@ This directory contains the EMETRIX Labs technical portfolio. Every laboratory r
 | [EMETRIX-LAB-001](EMETRIX-LAB-001/) | Implement Physical Security Countermeasures | Physical Security | 4/4 — Pass | Sanitized — Added |
 | [EMETRIX-LAB-002](EMETRIX-LAB-002/) | Configure a Captive Portal | Network Security | 4/4 — Pass | Sanitized — Added |
 | [EMETRIX-LAB-003](EMETRIX-LAB-003/) | Discover Bluetooth Devices | Wireless Security | 8/8 — Pass | Sanitized — Added |
-| [EMETRIX-LAB-004](EMETRIX-LAB-004/) | Secure a Mobile Device | Mobile Security | 3/3 — Pass | Pending upload |
-| [EMETRIX-LAB-005](EMETRIX-LAB-005/) | Configure a Security Appliance | Network Security | 3/3 — Pass | Pending upload |
-| [EMETRIX-LAB-006](EMETRIX-LAB-006/) | Configure Security Appliance Access | Access Control | 4/4 — Pass | Pending upload |
-| [EMETRIX-LAB-007](EMETRIX-LAB-007/) | Analyze Passwords Using Rainbow Tables | Password Security | 9/9 — Pass | Pending upload |
-| [EMETRIX-LAB-008](EMETRIX-LAB-008/) | Configure Account Password Policies | Identity Security | 8/8 — Pass | Pending upload |
-| [EMETRIX-LAB-009](EMETRIX-LAB-009/) | Manage Certificates | PKI / Certificate Management | 4/4 — Pass | Pending upload |
+| [EMETRIX-LAB-004](EMETRIX-LAB-004/) | Secure a Mobile Device | Mobile Security | 3/3 — Pass | Sanitized — Added |
+| [EMETRIX-LAB-005](EMETRIX-LAB-005/) | Configure a Security Appliance | Network Security | 3/3 — Pass | Sanitized — Added |
+| [EMETRIX-LAB-006](EMETRIX-LAB-006/) | Configure Security Appliance Access | Access Control | 4/4 — Pass | Sanitized — Added |
+| [EMETRIX-LAB-007](EMETRIX-LAB-007/) | Analyze Passwords Using Rainbow Tables | Password Security | 9/9 — Pass | Sanitized — Added |
+| [EMETRIX-LAB-008](EMETRIX-LAB-008/) | Configure Account Password Policies | Identity Security | 8/8 — Pass | Sanitized — Added |
+| [EMETRIX-LAB-009](EMETRIX-LAB-009/) | Manage Certificates | PKI / Certificate Management | 4/4 — Pass | Sanitized — Added |
 | [EMETRIX-LAB-010](EMETRIX-LAB-010/) | Perform System Configuration Gap Analysis | Security Assessment | Reserved | Capture after execution |
 
 ## Evidence Standard
