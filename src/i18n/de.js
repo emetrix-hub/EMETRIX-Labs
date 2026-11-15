@@ -264,6 +264,6 @@ module.exports = {
   footer: {
     tagline: 'Unabhängige Cybersecurity-, IT- und Web-Services aus Frankfurt am Main.',
     company: 'Unternehmen', legal: 'Rechtliches', servicesT: 'Leistungen',
-    rights: 'Alle Rechte vorbehalten.', vat: 'USt-IdNr.', top: 'Nach oben'
+    follow: 'Folgen Sie uns', rights: 'Alle Rechte vorbehalten.', vat: 'USt-IdNr.', top: 'Nach oben'
   }
 };

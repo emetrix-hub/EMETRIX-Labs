@@ -263,6 +263,6 @@ module.exports = {
   footer: {
     tagline: 'Independent cybersecurity, IT and web services from Frankfurt am Main.',
     company: 'Company', legal: 'Legal', servicesT: 'Services',
-    rights: 'All rights reserved.', vat: 'VAT ID', top: 'Back to top'
+    follow: 'Follow us', rights: 'All rights reserved.', vat: 'VAT ID', top: 'Back to top'
   }
 };

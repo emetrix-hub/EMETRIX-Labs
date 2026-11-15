@@ -10,6 +10,12 @@ const OUT = path.join(__dirname, '..', PREVIEW ? 'preview' : 'dist');
 const SITE = 'https://emetrix-tech.com';
 const EMAIL = 'contact@emetrix-tech.com';
 const LANGS = ['de', 'en', 'fa'];
+const SOCIAL = [
+  { key: 'instagram', label: 'Instagram', handle: '@emetrix_tech', url: 'https://www.instagram.com/emetrix_tech/', icon: 'camera' },
+  { key: 'tiktok', label: 'TikTok', handle: '@emetrix_tech', url: 'https://www.tiktok.com/@emetrix_tech', icon: 'note' },
+  { key: 'github', label: 'GitHub', handle: 'EMETRIX Labs', url: 'https://github.com/emetrix-hub/EMETRIX-Labs', icon: 'code' }
+];
+const socialLinks = (cls = 'social') => `<ul class="${cls}">${SOCIAL.map(x => `<li><a href="${x.url}" rel="noopener me" target="_blank" aria-label="${x.label} ${x.handle}">${icon(x.icon)}<span>${x.label}</span></a></li>`).join('')}</ul>`;
 const T = Object.fromEntries(LANGS.map(l => [l, require(`./i18n/${l}.js`)]));
 const PAGES = ['home', 'services', 'about', 'contact', 'imprint', 'privacy'];
 const VERSION = Date.now().toString(36);
@@ -55,7 +61,9 @@ const P = {
   plus: '<path d="M12 5v14M5 12h14"/>',
   menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
   close: '<path d="M6 6l12 12M18 6L6 18"/>',
-  up: '<path d="M12 19V5M6 11l6-6 6 6"/>'
+  up: '<path d="M12 19V5M6 11l6-6 6 6"/>',
+  camera: '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/>',
+  note: '<path d="M14 3v11.5a3.5 3.5 0 11-3.5-3.5"/><path d="M14 3c.5 2.8 2.4 4.6 5 5"/>'
 };
 const icon = (n, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[n]}</svg>`;
 
@@ -73,7 +81,7 @@ function layout({ lang, page, dir, body, meta }) {
     '@context': 'https://schema.org', '@type': 'ProfessionalService', name: 'EMETRIX Tech', url: SITE + '/', email: EMAIL,
     description: t.meta.home.desc, image: SITE + '/assets/og.png', logo: SITE + '/assets/logo-200.png', vatID: 'DE465574206', founder: { '@type': 'Person', name: 'Abdul Naasir Obaidy' },
     address: { '@type': 'PostalAddress', streetAddress: 'Eifelstr. 66A', postalCode: '60529', addressLocality: 'Frankfurt am Main', addressCountry: 'DE' },
-    areaServed: ['DE', 'EU'], knowsLanguage: ['de', 'en', 'fa'],
+    areaServed: ['DE', 'EU'], sameAs: SOCIAL.map(x => x.url), knowsLanguage: ['de', 'en', 'fa'],
     hasOfferCatalog: { '@type': 'OfferCatalog', name: t.nav.services, itemListElement: t.home.services.items.map(s => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: s.title, description: s.text } })) }
   })}</script>` : '';
   const faqLd = page === 'home' ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: t.home.faq.items.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) })}</script>` : '';
@@ -141,6 +149,7 @@ function footer(lang, dir) {
           <a class="brand" href="${href(dir, lang, 'home')}">${logoImg(dir)}${brand}</a>
           <p>${f.tagline}</p>
           <a class="footer-mail" href="mailto:${EMAIL}" dir="ltr">${icon('mail')} ${EMAIL}</a>
+          <p class="social-label">${f.follow}</p>${socialLinks()}
         </div>
         <div><h3>${f.servicesT}</h3><ul>${svc}</ul></div>
         <div><h3>${f.company}</h3><ul>
@@ -392,6 +401,7 @@ function contact(lang, dir) {
             <div>${icon('chat')}<dt>${i.langs}</dt><dd>${i.langsV}</dd></div>
           </dl>
         </div>
+        <div class="info-card reveal"><h3>${t.footer.follow}</h3>${socialLinks('social social-lg')}</div>
         <div class="info-card alert reveal">${icon('alert')}<div><h3>${i.emergency}</h3><p>${i.emergencyV}</p></div></div>
         <div class="info-card reveal"><h3>${c.next.title}</h3><ol class="mini-steps">${c.next.steps.map(s => `<li>${s}</li>`).join('')}</ol></div>
       </aside>

@@ -452,6 +452,17 @@ html[lang="fa"] .site-footer h3{font-family:var(--font);letter-spacing:0;font-si
 .to-top{margin-inline-start:auto;display:inline-flex;align-items:center;gap:.4rem;color:var(--muted)}
 .to-top:hover{color:var(--orange)}
 
+
+/* social */
+.social-label{font:600 .72rem var(--mono)!important;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)!important;margin:1.6rem 0 .7rem!important}
+html[lang="fa"] .social-label{font-family:var(--font)!important;letter-spacing:0;font-size:.85rem!important}
+.social{display:flex!important;flex-wrap:wrap;gap:.5rem}
+.social a{display:inline-flex;align-items:center;gap:.45rem;padding:.45rem .8rem;border:1px solid var(--line-2);border-radius:999px;font-size:.88rem;color:var(--muted);transition:.25s}
+.social a:hover{border-color:var(--orange);color:var(--text);background:rgba(255,138,30,.08)}
+.social .ic{width:17px;height:17px;color:var(--orange)}
+.social-lg{margin-top:1rem}
+.social-lg a{padding:.6rem 1rem;font-size:.95rem}
+
 /* ---------- reveal ---------- */
 .js .reveal{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:calc(var(--i,0) * 80ms)}
 .js .reveal.in{opacity:1;transform:none}
