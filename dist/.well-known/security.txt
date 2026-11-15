@@ -1,0 +1,4 @@
+Contact: mailto:contact@emetrix-tech.com
+Expires: 2027-11-15T02:33:36.000Z
+Preferred-Languages: de, en, fa
+Canonical: https://emetrix-tech.com/.well-known/security.txt

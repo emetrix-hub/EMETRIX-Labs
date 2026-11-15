@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://emetrix-tech.com/de/</loc><lastmod>2026-11-15</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/de/leistungen/</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/leistungen/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/de/ueber-uns/</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/ueber-uns/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/de/kontakt/</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/kontakt/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/de/impressum/</loc><lastmod>2026-11-15</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/impressum/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/de/datenschutz/</loc><lastmod>2026-11-15</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/datenschutz/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/en/</loc><lastmod>2026-11-15</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/en/services/</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/leistungen/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/en/about/</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/ueber-uns/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/en/contact/</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/kontakt/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/en/imprint/</loc><lastmod>2026-11-15</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/impressum/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/en/privacy/</loc><lastmod>2026-11-15</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/datenschutz/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/fa/</loc><lastmod>2026-11-15</lastmod><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/fa/services/</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/leistungen/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/fa/about/</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/ueber-uns/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/fa/contact/</loc><lastmod>2026-11-15</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/kontakt/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/fa/imprint/</loc><lastmod>2026-11-15</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/imprint/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/impressum/"/>
+  </url>
+  <url><loc>https://emetrix-tech.com/fa/privacy/</loc><lastmod>2026-11-15</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://emetrix-tech.com/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://emetrix-tech.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://emetrix-tech.com/fa/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://emetrix-tech.com/de/datenschutz/"/>
+  </url>
+</urlset>
